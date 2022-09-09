@@ -1,0 +1,547 @@
+.badge-text {
+    font-size: 11px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 25px;
+    padding: 0 4px;
+    text-transform: uppercase;
+    display: block;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+    float: left;
+}
+.badge-text.jackpot {
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.badge-text .currency {
+    display: inline;
+    font-weight: 700;
+}
+.badge-text .currency-symbol {
+    text-transform: none;
+}
+.badge-sash {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    transform: scale(1);
+    margin-left: -1px;
+}
+.badge-sash svg {
+    float: left;
+}
+.badge-depth {
+    clear: both;
+    float: left;
+}
+.badge-depth svg {
+    float: left;
+}
+.badge-arrow {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    padding: 5px 4px 5px 1px;
+}
+.badge-arrow svg {
+    float: left;
+    height: 14px;
+    width: 9px;
+}
+@media screen and (min-width: 1024px) {
+    .badge-arrow {
+        padding: 15px 7px 15px 1px;
+    }
+    .badge-arrow svg {
+        height: 18px;
+        width: 16px;
+    }
+    .tile .badge-arrow {
+        padding: 5px 4px 5px 1px;
+    }
+    .tile .badge-arrow svg {
+        height: 14px;
+        width: 9px;
+    }
+}
+.new .badge-sash {
+    fill: #d7bc7b;
+}
+.new .badge-arrow {
+    fill: #d7bc7b;
+    background-color: #d7bc7b;
+    object-fit: contain;
+}
+.new .badge-depth {
+    fill: #8e712b;
+}
+.new .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.premier .badge-sash {
+    fill: #d7bc7b;
+}
+.premier .badge-arrow {
+    fill: #d7bc7b;
+    background-color: #d7bc7b;
+    object-fit: contain;
+}
+.premier .badge-depth {
+    fill: #8e712b;
+}
+.premier .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.exclusive .badge-sash {
+    fill: #d7bc7b;
+}
+.exclusive .badge-arrow {
+    fill: #d7bc7b;
+    background-color: #d7bc7b;
+    object-fit: contain;
+}
+.exclusive .badge-depth {
+    fill: #8e712b;
+}
+.exclusive .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.recommended .badge-sash {
+    fill: #d7bc7b;
+}
+.recommended .badge-arrow {
+    fill: #d7bc7b;
+    background-color: #d7bc7b;
+    object-fit: contain;
+}
+.recommended .badge-depth {
+    fill: #8e712b;
+}
+.recommended .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.jackpot .badge-sash {
+    fill: #e62931;
+}
+.jackpot .badge-arrow {
+    fill: #e62931;
+    background-color: #e62931;
+    object-fit: contain;
+}
+.jackpot .badge-depth {
+    fill: #6a0c10;
+}
+.jackpot .badge-text {
+    background-color: #e62931;
+    color: #fff;
+}
+.ongoing .badge-sash {
+    fill: #1c8c47;
+}
+.ongoing .badge-arrow {
+    fill: #1c8c47;
+    background-color: #1c8c47;
+    object-fit: contain;
+}
+.ongoing .badge-depth {
+    fill: #525252;
+}
+.ongoing .badge-text {
+    background-color: #1c8c47;
+    color: #fff;
+}
+.upgraded .badge-sash {
+    fill: #d7bc7b;
+}
+.upgraded .badge-arrow {
+    fill: #d7bc7b;
+    background-color: #d7bc7b;
+    object-fit: contain;
+}
+.upgraded .badge-depth {
+    fill: #8e712b;
+}
+.upgraded .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.play-new .badge-sash {
+    fill: #d7bc7b;
+}
+.play-new .badge-arrow {
+    fill: #d7bc7b;
+    background-color: #d7bc7b;
+    object-fit: contain;
+}
+.play-new .badge-depth {
+    fill: #8e712b;
+}
+.play-new .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.play-it-here-first .badge-sash {
+    fill: #d7bc7b;
+}
+.play-it-here-first .badge-arrow {
+    fill: #d7bc7b;
+    background-color: #d7bc7b;
+    object-fit: contain;
+}
+.play-it-here-first .badge-depth {
+    fill: #8e712b;
+}
+.play-it-here-first .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.badge-component .badge-text {
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 300;
+    height: 18px;
+    padding-top: 3px;
+}
+.badge-component.jackpot .badge-text {
+    font-weight: 700;
+}
+.badge-component.ongoing .badge-text {
+    font-weight: 700;
+    line-height: 25px;
+    height: 24px;
+    padding: 0 4px;
+}
+.promo-badge {
+    display: inline-block;
+    margin: -20px -19px 0 0;
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.promo-badge > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    float: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-shadow: 0 2px 16px rgba(30, 30, 30, 0.5);
+    text-transform: capitalize;
+    box-shadow: none;
+    color: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    height: auto;
+    top: 19%;
+    right: 0;
+    bottom: 50%;
+    left: 32%;
+    z-index: 3;
+}
+.promo-badge .promo-badge-shadow {
+    display: inline-block;
+    margin: -20px 0 0 -50px;
+    content: "";
+    box-shadow: 8px 0 16px 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 0;
+    height: 126px;
+    z-index: 1;
+}
+.simple-badge {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.simple-badge .badge-text {
+    height: fit-content;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    box-shadow: none;
+}
+.simple-badge.jackpot-badge {
+    height: 38px;
+}
+.simple-badge.jackpot-badge .image-container {
+    position: absolute;
+    height: inherit;
+}
+.simple-badge.jackpot-badge svg {
+    height: inherit;
+    fill: url("#cb");
+}
+.simple-badge.jackpot-badge .badge-text {
+    font-weight: 700;
+    z-index: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+.simple-badge.exclusive-badge .badge-text,
+.simple-badge.new-badge .badge-text,
+.simple-badge.premier-badge .badge-text,
+.simple-badge.recommended-badge .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+.simple-badge.ongoing-badge .badge-text {
+    background-color: #1c8c47;
+    color: #fff;
+}
+.simple-badge.play-new-badge .badge-text,
+.simple-badge.upgraded-badge .badge-text {
+    background-color: #d7bc7b;
+    color: #1e1e1e;
+}
+
+.lazy-image-loader {
+    height: 100%;
+}
+.lazy-image-loader.occupy-space {
+    height: 1px;
+    width: 1px;
+}
+.table-details-wrapper {
+    margin-top: 6px;
+}
+.table-details-wrapper .text {
+    padding: 2px 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+.table-details-wrapper .available-seats {
+    font-size: 8px;
+    margin-bottom: 7px;
+}
+.table-details-wrapper .available-seats .text {
+    background-color: rgba(77, 179, 117, 0.5);
+}
+.table-details-wrapper .table-limits {
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+.table-details-wrapper .table-limits .text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffb80c;
+}
+.table-details-wrapper .table-results {
+    margin-bottom: 8px;
+}
+.table-details-wrapper .table-results .results {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 1px;
+}
+.table-details-wrapper .table-results .number {
+    display: inline-block;
+    background-color: #4db375;
+    color: #fff;
+    text-align: center;
+    vertical-align: top;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.table-details-wrapper .table-results .number:first-child {
+    margin-left: 1px;
+}
+.table-details-wrapper .table-results .number.red {
+    background-color: #d54d4d;
+    box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.table-details-wrapper .table-results .number.black {
+    background-color: #424242;
+    box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.tile .table-details-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 10;
+    margin: 0;
+    line-height: 12px;
+}
+.tile .table-details-wrapper .available-seats,
+.tile .table-details-wrapper .table-limits {
+    margin-bottom: 7px;
+}
+.tile .table-details-wrapper .number {
+    font-size: 8px;
+}
+@media screen and (max-width: 766px) {
+    .tile .table-details-wrapper {
+        line-height: 9px;
+    }
+    .tile .available-seats {
+        margin-top: 2px;
+    }
+    .table-details-wrapper .table-results {
+        margin-bottom: 4px;
+    }
+    .table-details-wrapper .table-results .number {
+        margin-right: 1px;
+        width: 13px;
+        height: 13px;
+        font-size: 8px;
+        line-height: 13px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .table-details-wrapper {
+        margin-top: 6px;
+    }
+    .table-details-wrapper .available-seats {
+        margin-bottom: 8px;
+        font-size: 10px;
+    }
+    .table-details-wrapper .table-limits {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .table-details-wrapper .table-results .number {
+        margin-right: 1px;
+        width: 16px;
+        height: 16px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .tile .table-details-wrapper {
+        line-height: 12px;
+    }
+    .tile .table-details-wrapper .table-results .number {
+        width: 13px;
+        height: 13px;
+        line-height: 13px;
+        font-size: 8px;
+    }
+    .tile .available-seats {
+        margin-top: 2px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .table-results .number {
+        margin-right: 2px;
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 30px;
+        border-radius: 4px;
+    }
+    .table-results .number.red {
+        box-shadow: inset 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
+    }
+    .table-results .number.black {
+        box-shadow: inset 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    }
+    .tile .table-results {
+        margin-bottom: 4px;
+    }
+    .tile .table-results .number {
+        width: 16px;
+        height: 16px;
+        font-size: 10px;
+        line-height: 16px;
+        border-radius: 2px;
+    }
+    .tile .available-seats {
+        margin-top: 2px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1119px) {
+    .table-details-wrapper {
+        margin-top: 8px;
+    }
+    .table-details-wrapper .available-seats {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .table-details-wrapper .table-limits {
+        margin-bottom: 8px;
+        font-size: 22px;
+    }
+    .tile .table-details-wrapper .available-seats {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    .tile .table-details-wrapper .table-limits {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1120px) and (max-width: 1399px) {
+    .table-details-wrapper {
+        margin-top: 10px;
+    }
+    .table-details-wrapper .available-seats {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .table-details-wrapper .table-limits {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .tile .table-details-wrapper .available-seats {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    .tile .table-details-wrapper .table-limits {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1919px) {
+    .table-details-wrapper {
+        margin-top: 10px;
+    }
+    .table-details-wrapper .available-seats {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .table-details-wrapper .table-limits {
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+    .tile .table-details-wrapper .available-seats {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    .tile .table-details-wrapper .table-limits {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .table-details-wrapper {
+        margin-top: 10px;
+    }
+    .table-details-wrapper .available-seats {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+    .table-details-wrapper .table-limits {
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+    .tile .table-details-wrapper .available-seats {
+        font-size: 10px;
+    }
+    .tile .table-details-wrapper .table-limits {
+        font-size: 12px;
+    }
+}
+.tile .table-details-wrapper {
+    left: 0;
+}

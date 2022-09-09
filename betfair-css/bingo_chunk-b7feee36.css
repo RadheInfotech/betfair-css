@@ -1,0 +1,7 @@
+.lazy-image-loader {
+    height: 100%;
+}
+.lazy-image-loader.occupy-space {
+    height: 1px;
+    width: 1px;
+}

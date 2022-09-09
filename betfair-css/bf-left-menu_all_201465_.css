@@ -1,0 +1,63 @@
+.mod-left-menu {
+    width: 176px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: #273a47;
+}
+.mod-left-menu a,
+.mod-left-menu a:hover,
+.mod-left-menu a:active {
+    text-decoration: none;
+    color: #273a47;
+}
+.mod-left-menu ul {
+    border-bottom: 1px solid #c6d5e0;
+    font-weight: bold;
+}
+.mod-left-menu ul li {
+    list-style-type: none;
+    border-top: 1px solid #c6d5e0;
+}
+.mod-left-menu ul li ul {
+    border: medium none;
+}
+.mod-left-menu ul li .icon {
+    width: 10px;
+    height: 10px;
+    background: url("/modules/left-menu/images/arrows.png") no-repeat left center transparent;
+    float: left;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+.mod-left-menu ul a {
+    line-height: 12px;
+    padding: 8px 0 8px 25px;
+    display: block;
+}
+.mod-left-menu ul li.expanded .icon {
+    margin-left: 7px;
+    margin-top: 11px;
+}
+.mod-left-menu li.expanded,
+.mod-left-menu li.expanded ul {
+    background: #fff;
+}
+.mod-left-menu a:hover,
+.mod-left-menu ul li ul.sub-menu li a:hover,
+.mod-left-menu li.selected,
+.mod-left-menu ul li ul.sub-menu li.selected,
+.mod-left-menu .mod-left-menu > ul > li:hover {
+    background: #e0e6e6;
+}
+.mod-left-menu .mod-left-menu ul li ul.sub-menu li a {
+    background: none;
+    font-weight: normal;
+}
+.mod-left-menu ul li.expanded .icon {
+    background-position: -10px 0;
+}
+.mod-left-menu li.selected,
+.mod-left-menu ul li ul.sub-menu li.selected {
+    background-position: -10px 0;
+}

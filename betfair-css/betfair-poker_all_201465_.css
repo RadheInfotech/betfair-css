@@ -1,0 +1,1997 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    color: #3b5160;
+}
+body a {
+    outline: none;
+}
+.h5-header,
+.nav-wrapper {
+    width: 100%;
+}
+#subNavigation {
+    display: none;
+}
+#grid-container {
+    min-height: 600px;
+}
+.mod-poker {
+    margin: 0;
+    padding: 0;
+}
+.mod-poker #main-wrapper.white-background {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, rgba(255, 255, 255, 0.9)),
+        color-stop(100%, rgba(255, 255, 255, 0.9))
+    );
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255,255,255,0.9)', endColorstr='rgba(255,255,255,0.9)');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255,255,255,0.9)', endColorstr='rgba(255,255,255,0.9)');
+    padding: 16px;
+    width: 956px;
+}
+.mod-poker a.textlink {
+    color: #2797e6;
+    text-decoration: none;
+}
+.mod-poker a.textlink:hover {
+    text-decoration: underline;
+}
+.mod-poker .carousel {
+    width: 976px;
+    height: 250px;
+    float: left;
+    display: block;
+    position: relative;
+    color: #fff;
+    background: #fff;
+    z-index: 100;
+}
+.mod-poker .carousel .container {
+    position: relative;
+}
+.mod-poker .carousel .overlay {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 700px;
+    width: 288px;
+    height: 250px;
+    background-color: #273a47;
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+.mod-poker .carousel .overlay .step {
+    clear: both;
+    margin-right: 20px;
+    color: #c6d5e0;
+    *zoom: 1;
+    height: 83px;
+    padding-bottom: 0;
+    display: table;
+    width: 100%;
+}
+.mod-poker .carousel .overlay .step .number {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 20px 30px 4px;
+    padding: 0 0 0 20px;
+    font-size: 36px;
+    width: 22px;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+}
+.mod-poker .carousel .overlay .step h3 {
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+}
+.mod-poker .carousel .overlay .step .download-install-content {
+    position: static;
+    float: right;
+    margin: 3px 0 0;
+    width: 100%;
+}
+.mod-poker .row {
+    *zoom: 1;
+    margin-top: 16px;
+}
+.mod-poker .row.nospace {
+    margin-top: 0;
+}
+.mod-poker .row:before,
+.mod-poker .row:after {
+    display: table;
+    content: "";
+}
+.mod-poker .row:after {
+    clear: both;
+}
+.mod-poker .widget {
+    margin: 0 8px 0 8px;
+    width: 316px;
+    display: block;
+    float: left;
+    position: relative;
+}
+.mod-poker .widget.large {
+    width: 486px;
+    height: 202px;
+    background-color: #3b5160;
+}
+.mod-poker .widget.large a {
+    border: 0;
+    width: 486px;
+    height: 202px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.mod-poker .widget.large a:hover {
+    border: 0;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.mod-poker .widget.left {
+    margin-left: 0;
+}
+.mod-poker .widget.center {
+    margin-left: 16px;
+}
+.mod-poker .widget.right {
+    padding-right: 0;
+    margin-right: 0;
+}
+.mod-poker .widget h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    padding-bottom: 8px;
+}
+.mod-poker .promoCarousel {
+    width: 304px;
+    height: 168px;
+    color: #fff;
+}
+.mod-poker p {
+    font-size: 1em;
+    margin: 1em 0;
+}
+.mod-poker #left-column,
+.mod-poker #right-column {
+    margin-top: 0;
+}
+.mod-poker #left-column {
+    float: left;
+    width: 176px;
+}
+.mod-poker #right-column {
+    float: right;
+    width: 780px;
+}
+.mod-poker button {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 1.3em;
+}
+.mod-poker .bluebutton {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.mod-poker .bluebutton:hover {
+    background: #2789ce;
+}
+.mod-poker .bluebutton > div {
+    display: table;
+    width: 135px;
+    text-align: center;
+    height: 27px;
+    padding: 2px;
+}
+.mod-poker .bluebutton > div > div {
+    line-height: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    left: 0;
+    width: 135px;
+    text-align: center;
+}
+.mod-poker .hidden {
+    display: none;
+}
+.mod-poker h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 22px;
+    color: #273a47;
+    margin: 0 0 -4px 16px;
+}
+.mod-poker .poker-text-container {
+    margin: 16px 0 0 16px;
+}
+.mod-poker .poker-text-container h3,
+.mod-poker .poker-text-container h4 {
+    font-weight: bold;
+}
+.mod-poker .poker-text-container h3.bigger-h3 {
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 10px;
+}
+.mod-poker .poker-text-container table > tbody > tr:first-child > td:first-child {
+    width: 150px;
+}
+.mod-poker .poker-text-container table tr td {
+    padding: 8px;
+}
+.mod-poker .poker-text-container table tr.even {
+    background: #fff;
+}
+.mod-poker .poker-text-container table tr.odd {
+    background: #eff2f2;
+}
+.mod-poker .poker-text-container li {
+    list-style: disc inside;
+    margin-left: 10px;
+}
+.mod-poker .poker-text-container li ul li {
+    list-style: circle inside;
+    margin-left: 40px;
+}
+.mod-poker .poker-text-container .poker-text-container-title {
+    width: 100%;
+    background-color: #273a47;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.mod-poker .poker-text-container .poker-text-container-title h2 {
+    padding: 8px 8px;
+}
+.mod-poker .poker-text-container .poker-text-container-title span.icon {
+    width: 14px;
+    height: 7px;
+    position: absolute;
+    right: 11px;
+    top: 9px;
+    background: url("/modules/poker/images/show-hide-sprite.png") no-repeat left top;
+    cursor: pointer;
+    border: 5px solid #273a47;
+}
+.mod-poker .poker-text-container .poker-text-container-title span.icon.down {
+    background-position: 0 -7px;
+}
+.mod-poker .poker-text-container .poker-text-container-content {
+    overflow: hidden;
+}
+.mod-poker .poker-text-container .poker-text-container-description {
+    padding: 16px;
+    width: 730px;
+    background: #fff;
+    border-bottom: 1px solid #d1d1d2;
+    border-left: 1px solid #eaebeb;
+    border-right: 1px solid #eaebeb;
+    clear: both;
+}
+.mod-poker .poker-text-container .poker-text-container-description.highlighted {
+    background: #e0e6e6;
+}
+.mod-poker .poker-text-container .poker-text-container-description img.right {
+    float: right;
+    margin-left: 16px;
+    max-width: 300px;
+}
+.mod-poker .poker-text-container .image-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+.mod-poker .poker-text-container #promo-overview .poker-text-container-description {
+    margin-top: -3px;
+}
+.mod-poker .poker-text-container #promo-overview .poker-promo-image-container {
+    width: 765px;
+}
+.mod-poker-container {
+    width: 988px;
+    margin: 0 auto 32px 0;
+    *zoom: 1;
+}
+.mod-poker-container:before,
+.mod-poker-container:after {
+    display: table;
+    content: "";
+}
+.mod-poker-container:after {
+    clear: both;
+}
+.mod-poker-container .step-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+.mod-poker-how-to-play-page a.textlink {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    color: #999999;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.actionButton {
+    position: static;
+    display: block;
+    margin: 0;
+    padding: 7px 0;
+    font-family: "Noto Sans", sans-serif;
+    float: none;
+    text-align: center;
+}
+.actionButton .icon {
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("/modules/poker/images/download_button.png") no-repeat scroll left center transparent;
+    top: 10px;
+    right: 8px;
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    *zoom: 1;
+}
+.actionButton:hover .icon,
+.actionButton:active .icon {
+    background: url("/modules/poker/images/download_button.gif") center left no-repeat;
+}
+.actionButton .download-install-text {
+    margin: 0 8px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    color: #273a47;
+    text-align: center;
+}
+.mod-poker .white {
+    padding: 4px 10px;
+    color: #273a47;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+    border-color: #c4d6e0 #c4d6e0 #7e909c;
+    background: -moz-linear-gradient(top, #fff 0%, #eaf0f4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #eaf0f4));
+    background: -webkit-linear-gradient(top, #fff 0%, #eaf0f4 100%);
+    background: -o-linear-gradient(top, #fff 0%, #eaf0f4 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #eaf0f4 100%);
+    background: linear-gradient(to bottom, #fff 0%, #eaf0f4 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#eaf0f4');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#eaf0f4');
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.mod-poker .white:hover {
+    text-decoration: none;
+    border-color: #c4d6e0 #c4d6e0 #7e909c;
+    background: -moz-linear-gradient(top, #fff 0%, #dce3ea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dce3ea));
+    background: -webkit-linear-gradient(top, #fff 0%, #dce3ea 100%);
+    background: -o-linear-gradient(top, #fff 0%, #dce3ea 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #dce3ea 100%);
+    background: linear-gradient(to bottom, #fff 0%, #dce3ea 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#dce3ea');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#dce3ea');
+}
+.mod-poker .white:active {
+    text-decoration: none;
+    border-color: #3b515f #c6d5df #c6d5df;
+    background: -moz-linear-gradient(top, #eaf0f4 0%, #fff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eaf0f4), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(top, #eaf0f4 0%, #fff 100%);
+    background: -o-linear-gradient(top, #eaf0f4 0%, #fff 100%);
+    background: -ms-linear-gradient(top, #eaf0f4 0%, #fff 100%);
+    background: linear-gradient(to bottom, #eaf0f4 0%, #fff 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaf0f4', endColorstr='#fff');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaf0f4', endColorstr='#fff');
+}
+.mod-poker .actionButton {
+    border: 1px solid;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    color: #273a47;
+    text-decoration: none;
+    border-color: #fa2 #fa2 #bf7c12;
+    background: -moz-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffdf4e), color-stop(100%, #ffc019));
+    background: -webkit-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: -o-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: -ms-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: linear-gradient(to bottom, #ffdf4e 0%, #ffc019 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDF4E', endColorstr='#FFC019');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDF4E', endColorstr='#FFC019');
+}
+.mod-poker .actionButton:hover {
+    border-color: #fa2 #fa2 #bf7c12;
+    background: -moz-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffd851), color-stop(100%, #ffaf17));
+    background: -webkit-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: -o-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: -ms-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: linear-gradient(to bottom, #ffd851 0%, #ffaf17 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD851', endColorstr='#FFAF17');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFD851', endColorstr='#FFAF17');
+}
+.mod-poker .actionButton:active {
+    border-color: #965f07 #965f07 #fa2;
+    background: -moz-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb018), color-stop(100%, #ffd74f));
+    background: -webkit-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: -o-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: -ms-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: linear-gradient(to bottom, #ffb018 0%, #ffd74f 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB018', endColorstr='#FFD74F');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB018', endColorstr='#FFD74F');
+}
+.mod-poker .actionButton .download-install-text {
+    width: 156px;
+}
+.mod-poker .promoCarousel {
+    background: #273a47 url("/modules/poker/images/promo-carousel-background.jpg") 0 0;
+}
+.mod-poker .button {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 6px 10px 4px 0;
+    display: block;
+    float: left;
+}
+.mod-poker .bluebutton {
+    background: #273a47;
+    width: 146px;
+    height: 31px;
+}
+.mod-poker .mod-poker-getting-started-page b {
+    font-weight: bold;
+}
+.mod-poker .mod-poker-getting-started-page p {
+    margin: 0;
+    line-height: 1.5;
+}
+.cta {
+    background: -moz-linear-gradient(top, #e1e1e1 0%, silver 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e1e1e1), color-stop(100%, silver));
+    background: -webkit-linear-gradient(top, #e1e1e1 0%, silver 100%);
+    background: -o-linear-gradient(top, #e1e1e1 0%, silver 100%);
+    background: -ms-linear-gradient(top, #e1e1e1 0%, silver 100%);
+    background: linear-gradient(to bottom, #e1e1e1 0%, silver 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='silver');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1', endColorstr='silver');
+    border: 0 none;
+    border-radius: 2px;
+    color: #1e1e1e;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 0.715em 1.65em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25);
+    text-transform: none;
+    vertical-align: middle;
+    z-index: 1;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.cta:after {
+    background: #c8c8c8;
+    content: "";
+    display: block;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+.cta:active:after {
+    background: #c7c7c7;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.cta:hover:after {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.cta:hover {
+    color: #1e1e1e;
+}
+.cta:active {
+    outline: none;
+}
+.cta-primary {
+    background: -moz-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffc90c), color-stop(100%, #ffb80c));
+    background: -webkit-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: -o-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: -ms-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: linear-gradient(to bottom, #ffc90c 0%, #ffb80c 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc90c', endColorstr='#ffb80c');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc90c', endColorstr='#ffb80c');
+}
+.cta-primary:after {
+    background: #e5a50b;
+}
+.cta-primary:hover {
+    color: #1e1e1e;
+}
+.cta-primary:active:after {
+    background: #e5a50b;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.cta-tertiary {
+    background: -moz-linear-gradient(top, #3d3d3d 0%, #1e1e1e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d3d3d), color-stop(100%, #1e1e1e));
+    background: -webkit-linear-gradient(top, #3d3d3d 0%, #1e1e1e 100%);
+    background: -o-linear-gradient(top, #3d3d3d 0%, #1e1e1e 100%);
+    background: -ms-linear-gradient(top, #3d3d3d 0%, #1e1e1e 100%);
+    background: linear-gradient(to bottom, #3d3d3d 0%, #1e1e1e 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d', endColorstr='#1e1e1e');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d', endColorstr='#1e1e1e');
+    color: #fff;
+    text-shadow: none;
+    border: none;
+}
+.cta-tertiary:after {
+    background: #2a2a2a;
+}
+.cta-tertiary:hover {
+    color: #fff;
+}
+.cta-tertiary:active:after {
+    background: #333;
+    box-shadow: 0 1px 1px #fff;
+}
+.cta-marketing {
+    background: -moz-linear-gradient(top, #fcc330 0%, #f29430 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcc330), color-stop(100%, #f29430));
+    background: -webkit-linear-gradient(top, #fcc330 0%, #f29430 100%);
+    background: -o-linear-gradient(top, #fcc330 0%, #f29430 100%);
+    background: -ms-linear-gradient(top, #fcc330 0%, #f29430 100%);
+    background: linear-gradient(to bottom, #fcc330 0%, #f29430 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcc330', endColorstr='#f29430');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcc330', endColorstr='#f29430');
+    color: #1e1e1e;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 40px 0 16px;
+    position: relative;
+    text-transform: none;
+    text-shadow: none;
+}
+.cta-marketing:before {
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    background: url(/modules/bingo/images/chevron.svg);
+    content: "";
+    height: 17px;
+    margin: 0;
+    width: 17px;
+}
+.cta-marketing:after {
+    background: #e5a50b;
+}
+.cta-marketing:active:after {
+    background: #e5a50b;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.mod-poker-promotions-page h1 {
+    font-weight: bold;
+}
+.mod-poker-promotions-page .content-container {
+    margin-left: 16px;
+}
+.mod-poker-promotions-page .poker-text-container-content .poker-text-container-description {
+    display: inline-block;
+}
+.mod-poker-promotions-page .poker-text-container-content .poker-text-container-description .actionButton {
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+    margin: 0;
+    font-size: 22px;
+    font-family: "Noto Sans", sans-serif;
+    color: #273a47;
+}
+.mod-poker-promotions-page .poker-text-container-content .poker-text-container-description .tableStructure th {
+    background-color: #304654;
+}
+.mod-poker-promotions-page
+    .poker-text-container-content
+    .poker-text-container-description
+    .tableStructure
+    tbody
+    tr:nth-child(2n) {
+    background-color: #e0e6e6 !important;
+}
+.mod-poker-promotions-page
+    .poker-text-container-content
+    .poker-text-container-description
+    .tableStructure
+    tbody
+    tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+body.page-bonus-opt-in {
+    background: url(/modules/cashier-bonus-opt-in/images/bf-bk.jpg) no-repeat,
+        linear-gradient(to right, #0e0e0e, #1a1a1a);
+    background-size: contain;
+    color: #fff;
+}
+body.page-bonus-opt-in #grid-container.flexible-grid {
+    width: auto;
+    min-width: 0;
+}
+.mod-cashier-bonus-opt-in {
+    background-image: linear-gradient(120deg, rgba(153, 104, 203, 0.8), rgba(82, 34, 135, 0.8));
+    box-shadow: 0 2px 16px 0 rgba(30, 30, 30, 0.5);
+    width: 568px;
+    height: 306px;
+    margin: 48px auto;
+    padding: 0;
+    display: table;
+}
+.mod-cashier-bonus-opt-in a,
+.mod-cashier-bonus-opt-in a:hover,
+.mod-cashier-bonus-opt-in a:visited {
+    color: #de0f26;
+    text-decoration: underline;
+}
+.mod-cashier-bonus-opt-in .bonus-optin-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.mod-cashier-bonus-opt-in .message {
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+}
+.mod-cashier-bonus-opt-in .form {
+    padding: 8px 0 0;
+}
+.mod-cashier-bonus-opt-in .form-element {
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.mod-cashier-bonus-opt-in .form-element.label {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 8px;
+    line-height: 12px;
+    width: 100%;
+}
+.mod-cashier-bonus-opt-in .form-element .input-text {
+    width: 168px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    margin: 0 0 16px;
+    padding: 0 16px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #171717;
+}
+.mod-cashier-bonus-opt-in .form-element .cta {
+    width: 100%;
+    padding: 0.715em 0;
+}
+.mod-cashier-bonus-opt-in .loader {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 100;
+    display: none;
+}
+.mod-cashier-bonus-opt-in .icon {
+    background: url(data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0A%09%20viewBox%3D%220%200%2064%2064%22%20enable-background%3D%22new%200%200%2064%2064%22%20xml%3Aspace%3D%22preserve%22%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20fill%3D%22white%22%20opacity%3D%220.0%22%20d%3D%22M32%2C0.8C14.8%2C0.8%2C0.8%2C14.8%2C0.8%2C32c0%2C17.2%2C14%2C31.2%2C31.2%2C31.2s31.2-14%2C31.2-31.2C63.2%2C14.8%2C49.2%2C0.8%2C32%2C0.8z%20M32%2C53.6c-11.9%2C0-21.6-9.7-21.6-21.6c0-11.9%2C9.7-21.6%2C21.6-21.6S53.6%2C20.1%2C53.6%2C32C53.6%2C43.9%2C43.9%2C53.6%2C32%2C53.6z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3ClinearGradient%20id%3D%22spinner-ID%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220.7972%22%20y1%3D%2216.4167%22%20x2%3D%2263.1662%22%20y2%3D%2216.4167%22%3E%0A%09%09%09%3Cstop%20offset%3D%220.1%22%20style%3D%22stop-color%3A%23F04C3D%3B%20stop-opacity%3A0%22/%3E%0A%09%09%09%3Cstop%20offset%3D%221%22%20style%3D%22stop-color%3A%23F04C3D%3B%22/%3E%0A%09%09%3C/linearGradient%3E%0A%09%09%3Cpath%20fill%3D%22url%28%23spinner-ID%29%22%20d%3D%22M63.2%2C32c0-17-14-31.2-31.2-31.2S0.8%2C14.8%2C0.8%2C32l9.6%2C0c0-11.9%2C9.7-21.6%2C21.6-21.6S53.6%2C20%2C53.6%2C32%20H63.2z%22/%3E%0A%09%3C/g%3E%0A%3C/svg%3E);
+    display: block;
+    height: calc(16px * 5);
+    width: calc(16px * 5);
+    -webkit-animation: animationFrames linear 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: animationFrames linear 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    animation: animationFrames linear 1s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    position: absolute;
+    top: 148px;
+    left: 294px;
+}
+.mod-cashier-bonus-opt-in .hide {
+    display: none;
+}
+.mod-cashier-bonus-opt-in .response-success {
+    font-size: 18px;
+    color: #ffb80c;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid rgba(241, 241, 241, 0.2);
+    width: 504px;
+    margin: 9px auto 32px;
+    padding: 0 0 32px;
+}
+.mod-cashier-bonus-opt-in .response-success span {
+    font-size: 14px;
+}
+.mod-cashier-bonus-opt-in .response-error {
+    width: 336px;
+    background-color: #f1f1f1;
+    border: solid 1px #e72931;
+    margin: 0 auto 8px;
+    border-radius: 0;
+}
+.mod-cashier-bonus-opt-in .response-error img {
+    float: left;
+    margin: 8px 8px 16px;
+}
+.mod-cashier-bonus-opt-in .response-error .text {
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #de0f26;
+}
+@keyframes animationFrames {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes animationFrames {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.mod-poker-base {
+    clear: both;
+    float: left;
+    margin: 16px 0;
+    background: rgba(255, 255, 255, 0.9);
+}
+.mod-poker .mod-poker-base .widget {
+    width: 315px;
+}
+.mod-poker .mod-poker-base .widget .base-titles {
+    width: 315px;
+}
+.mod-poker .mod-poker-base .widget.left {
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.mod-poker-base .base-titles {
+    margin-top: 0;
+    background: url("/modules/poker/images/base-title.jpg") 0 0;
+    width: 988px;
+}
+.mod-poker-base .widget-title {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 8px 0 0 8px;
+    height: 28px;
+}
+.mod-poker-base .widget-base {
+    height: 148px;
+    margin: 0 0 16px 16px;
+    border-right: 1px solid #c6d5e0;
+}
+.mod-poker-base .widget-base.right {
+    width: 308px;
+    border-right: none;
+}
+.lang-it .mod-poker-base .widget-base {
+    margin-bottom: 20px;
+}
+.mod-poker .mod-poker-base .widget.left {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.mod-poker .widget .mod-poker-getting-started-widget .getting-started-title {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    padding: 0;
+    margin: 0 0 4px;
+}
+.mod-poker .widget .mod-poker-getting-started-widget .denmark-widget .value-title {
+    padding-top: 8px;
+}
+.mod-poker-getting-started-widget .image {
+    float: right;
+    width: 110px;
+    height: 132px;
+    margin-top: 2px;
+}
+.mod-poker-getting-started-widget .denmark-widget .image {
+    margin-top: 15px;
+}
+.mod-poker .widget .mod-poker-getting-started-widget .denmark-widget .getting-started-title {
+    font-size: 14px;
+    margin: 2px 0;
+}
+.mod-poker-getting-started-widget .link {
+    display: block;
+    height: 153px;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+}
+.mod-poker-getting-started-widget .getting-started-widget-class {
+    padding: 0;
+    background: none;
+}
+
+.mod-poker-how-to-play-hub .how-to-play-title {
+    margin: 0 0 9px;
+}
+.mod-poker-how-to-play-hub .section-title {
+    width: 765px;
+    background-color: #273a47;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    position: relative;
+    margin-top: 15px;
+}
+.mod-poker-how-to-play-hub .section-title-content {
+    padding: 8px 16px;
+    font-size: 18px;
+}
+.mod-poker-how-to-play-hub .page-content {
+    margin: 0 0 0 15px;
+    clear: both;
+}
+.mod-poker-how-to-play-hub .list-item {
+    width: 375px;
+    height: 160px;
+    float: left;
+    margin: 0 0 15px 15px;
+    position: relative;
+    overflow: hidden;
+}
+.mod-poker-how-to-play-hub .list-item-anchor {
+    color: #3b5160;
+    text-decoration: none;
+}
+.mod-poker-how-to-play-hub .list-item-anchor:hover {
+    text-decoration: none;
+}
+.mod-poker-how-to-play-hub .list-item-img {
+    width: 384px;
+    height: 160px;
+}
+.mod-poker-how-to-play-hub .how-to-play-caption {
+    position: absolute;
+    bottom: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    background: rgba(39, 58, 71, 0.8);
+    color: #fff;
+    display: block;
+    width: 354px;
+    padding: 7px 15px;
+    line-height: 15px;
+}
+.mod-poker-how-to-play-hub .how-to-play-overlay {
+    position: absolute;
+    width: 595px;
+    height: 448px;
+    top: 289px;
+    left: 211px;
+    background: url("/modules/poker-how-to-play-hub/images/how-to-play-hub-background.png") no-repeat left top;
+    padding: 16px;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    display: none;
+}
+.mod-poker-how-to-play-hub .how-to-play-overlay-content {
+    position: absolute;
+    width: 352px;
+    height: 128px;
+    right: 50px;
+    bottom: 50px;
+}
+.mod-poker-how-to-play-hub .how-to-play-overlay-title {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+.mod-poker-how-to-play-hub .how-to-play-overlay-caption {
+    padding: 4px 0 0;
+    font-weight: 100;
+    margin: 0;
+    color: #fff;
+}
+.mod-poker-how-to-play-hub .how-to-play-button {
+    position: absolute;
+    right: 0;
+    height: 20px;
+    bottom: -7px;
+}
+.mod-poker-how-to-play-hub .how-to-play-button-content {
+    width: 20px;
+    height: 20px;
+    background: url("/modules/poker-how-to-play-hub/images/btn-how-to-play-more.png") no-repeat left top;
+    display: block;
+}
+.mod-poker-how-to-play-hub .white {
+    width: auto;
+}
+
+.mod-navigation-bar {
+    height: 36px;
+    width: 100%;
+    background-color: #1e1e1e;
+    margin-bottom: 16px;
+    line-height: 36px;
+}
+.mod-navigation-bar .main {
+    width: 988px;
+    margin: 0 auto;
+}
+.mod-navigation-bar .menu a {
+    float: left;
+    position: relative;
+    line-height: 36px;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    border-right: 1px solid #393939;
+    color: #fff;
+    padding: 0 8px;
+}
+.mod-navigation-bar .menu a:hover,
+.mod-navigation-bar .menu a.active {
+    color: #ffb80c;
+}
+.mod-navigation-bar .menu a .home {
+    width: 36px;
+    height: 36px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.jur-ITALY.lang-en .mod-navigation-bar .menu a.home,
+.jur-SPAIN.lang-en .mod-navigation-bar .menu a.home,
+.jur-DENMARK.lang-en .mod-navigation-bar .menu a.home {
+    width: 36px;
+    height: 36px;
+    padding-left: 0;
+    padding-right: 0;
+    background: none;
+    margin-top: 0;
+}
+.jur-SPAIN .mod-navigation-bar .menu a:first-child,
+.jur-ITALY .mod-navigation-bar .menu a:first-child,
+.jur-DENMARK .mod-navigation-bar .menu a.home {
+    width: 36px;
+    height: 36px;
+    padding-left: 0;
+    padding-right: 0;
+    background: none;
+    margin-top: 0;
+}
+.mod-navigation-bar .actionButton {
+    position: relative;
+    float: right;
+    right: 4px;
+    top: 4px;
+    line-height: normal;
+    padding: 4px 26px 4px 8px;
+    display: block;
+    margin: 0 0 4px;
+    width: auto;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+    color: #273a47;
+    border: 1px solid;
+    border-color: #fa2 #fa2 #bf7c12;
+    background: -moz-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffdf4e), color-stop(100%, #ffc019));
+    background: -webkit-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: -o-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: -ms-linear-gradient(top, #ffdf4e 0%, #ffc019 100%);
+    background: linear-gradient(to bottom, #ffdf4e 0%, #ffc019 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdf4e', endColorstr='#ffc019');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdf4e', endColorstr='#ffc019');
+}
+.mod-navigation-bar .actionButton:hover {
+    border-color: #fa2 #fa2 #bf7c12;
+    background: -moz-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffd851), color-stop(100%, #ffaf17));
+    background: -webkit-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: -o-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: -ms-linear-gradient(top, #ffd851 0%, #ffaf17 100%);
+    background: linear-gradient(to bottom, #ffd851 0%, #ffaf17 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd851', endColorstr='#ffaf17');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd851', endColorstr='#ffaf17');
+}
+.mod-navigation-bar .actionButton:active {
+    border-color: #965f07 #965f07 #fa2;
+    background: -moz-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb018), color-stop(100%, #ffd74f));
+    background: -webkit-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: -o-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: -ms-linear-gradient(top, #ffb018 0%, #ffd74f 100%);
+    background: linear-gradient(to bottom, #ffb018 0%, #ffd74f 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb018', endColorstr='#ffd74f');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb018', endColorstr='#ffd74f');
+}
+.mod-navigation-bar .actionButton .icon {
+    background-position: 0 -97px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    height: 16px;
+    width: 16px;
+    margin: 0;
+}
+.mod-navigation-bar .menu a:first-child {
+    height: 28px;
+    line-height: 28px;
+    margin-top: 4px;
+    border-radius: 2px;
+    background: #ffb80c;
+    color: #1e1e1e;
+}
+.mod-navigation-bar .menu a:first-child:hover {
+    color: #fff;
+}
+.mod-navigation-bar .menu .icon {
+    background: url("/page/images/poker/poker-sprite.png") 0 0 no-repeat;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    top: 10px;
+}
+.mod-navigation-bar .menu > a.home .icon {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.mod-navigation-bar .menu > a.home:hover .icon,
+.mod-navigation-bar .menu > a.home.active .icon {
+    background-position: -16px 0;
+}
+.mod-navigation-bar .menu > a.dynamic.icon {
+    background-position: 0 0;
+}
+.mod-navigation-bar .menu > a.dynamic:hover .icon {
+    background-position: 0 -16px !important;
+}
+.mod-navigation-bar .menu > a.promotions .icon {
+    background-position: 0 -33px;
+}
+.mod-navigation-bar .menu > a.promotions:hover .icon,
+.mod-navigation-bar .menu > a.promotions.active .icon {
+    background-position: -16px -33px;
+}
+
+.mod-poker-promotions-hub ul li {
+    width: 375px;
+    height: 160px;
+    float: left;
+    margin: 16px 0 0 15px;
+    position: relative;
+    overflow: hidden;
+}
+.mod-poker-promotions-hub ul li a {
+    color: #3b5160;
+    text-decoration: none;
+}
+.mod-poker-promotions-hub ul li a:hover {
+    text-decoration: none;
+}
+.mod-poker-promotions-hub ul li img {
+    width: 384px;
+    height: 160px;
+}
+.mod-poker-promotions-hub h2.promotion-caption {
+    position: absolute;
+    bottom: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    background: rgba(39, 58, 72, 0.8);
+    color: #fff;
+    display: block;
+    width: 354px;
+    line-height: 20px;
+    height: 15px;
+    overflow: hidden;
+    padding: 5px 15px 8px;
+}
+.mod-poker-promotions-hub .promotion-overlay-content {
+    position: absolute;
+    width: 352px;
+    height: 128px;
+    right: 50px;
+    bottom: 50px;
+}
+.mod-poker-promotions-hub .promotion-text-mask {
+    background: url("/modules/poker-promotions-hub/images/promotion-text-mask.png") repeat-x left bottom;
+    width: 384px;
+    height: 57px;
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: -16px;
+}
+.mod-poker-promotions-hub .promotion-title-caption {
+    display: block;
+    overflow: hidden;
+}
+.mod-poker-promotions-hub .promotion-overlay {
+    position: absolute;
+    width: 595px;
+    height: 448px;
+    background: url("/modules/poker-promotions-hub/images/promo-list-background.png") no-repeat left top;
+    padding: 16px;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    display: none;
+}
+.mod-poker-promotions-hub .promotion-overlay .promotion-name {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+}
+.mod-poker-promotions-hub .promotion-overlay .promotion-description {
+    padding: 4px 0 0;
+    font-weight: 100;
+    margin: 0;
+}
+.mod-poker-promotions-hub .promotion-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.mod-poker-promotions-hub ul.tournaments {
+    float: left;
+    padding-bottom: 16px;
+}
+.mod-poker-promotions-hub > img {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.mod-poker-rtp h1 {
+    margin: 0px 0px 12px 0px;
+}
+
+.mod-poker-rtp .page-content {
+    margin: 0px 0px 0px 15px;
+    clear: both;
+}
+
+.mod-poker-rtp .rtp-description {
+    padding: 0px 0px 16px 0px;
+}
+
+.mod-poker-rtp .poker-text-container-content {
+    display: none;
+}
+
+.mod-poker-rtp table {
+    width: 100%;
+    background: #ffffff;
+}
+
+.mod-poker-rtp table thead tr {
+    border-left: 1px solid #273a47;
+    border-right: 1px solid #273a47;
+}
+
+.mod-poker-rtp table th {
+    background: #273a47;
+    color: #ffffff;
+    padding: 6px 8px;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: center;
+    border-left: 1px solid #c6d5e0;
+}
+
+.mod-poker-rtp table tr {
+    border-bottom: 1px solid #c6d5e0;
+    border-right: 1px solid #c6d5e0;
+}
+
+.mod-poker-rtp table td {
+    padding: 6px 8px;
+    vertical-align: middle;
+    text-align: center;
+    border-left: 1px solid #c6d5e0;
+}
+
+.mod-poker-rtp table tr:hover {
+    background: #eff2f2;
+}
+
+.mod-poker-rtp ul > li {
+    line-height: 24px;
+}
+
+.mod-seo-homepage-content {
+    clear: both;
+    margin-top: 16px;
+    width: 100%;
+    color: #1e1e1e;
+    font-family: "Noto Sans", sans-serif;
+}
+.mod-seo-homepage-content .content-wrapper-bingo {
+    background-color: #fff;
+    opacity: 0.8;
+}
+.mod-seo-homepage-content .content-wrapper-poker {
+    background-color: #fff;
+}
+.mod-seo-homepage-content .content-wrapper-poker .content-body {
+    color: #1e1e1e;
+}
+.mod-seo-homepage-content .content-wrapper-poker .content-body a {
+    color: #1e1e1e;
+    font-weight: bold;
+    text-decoration: none;
+}
+.mod-seo-homepage-content .content-wrapper-poker .content-body a:hover {
+    text-decoration: underline;
+}
+.mod-seo-homepage-content .content-wrapper-poker .content-body button {
+    color: #1e1e1e;
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    height: 33px;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.mod-seo-homepage-content .content-label {
+    height: 42px;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 16px;
+    line-height: 42px;
+}
+.mod-seo-homepage-content .content-body .title {
+    margin: 24px 16px 16px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+}
+.mod-seo-homepage-content .content-body .header {
+    border-bottom: 1px solid #e5e7e8;
+}
+.mod-seo-homepage-content .content-body .header .description-header {
+    font-size: 14px;
+    line-height: 1.14;
+    margin: 0 16px 24px 16px;
+    font-family: "Noto Sans", sans-serif;
+}
+.mod-seo-homepage-content .content-body a {
+    color: #4db1ff;
+    text-decoration: none;
+}
+.mod-seo-homepage-content .content-body a:hover {
+    text-decoration: underline;
+}
+.mod-seo-homepage-content .content-body br {
+    display: block;
+    height: 16px;
+    content: "";
+}
+.mod-seo-homepage-content .content-body .columns-area {
+    width: 924px;
+    display: table;
+    padding: 24px 32px 24px 32px;
+}
+.mod-seo-homepage-content .content-body .columns-area.counter-2 .column {
+    width: 446px;
+}
+.mod-seo-homepage-content .content-body .columns-area.counter-3 .column {
+    width: 284px;
+}
+.mod-seo-homepage-content .content-body .columns-area.counter-4 .column {
+    width: 200px;
+}
+.mod-seo-homepage-content .content-body .columns-area .column {
+    display: table-cell;
+    padding-right: 32px;
+    vertical-align: top;
+}
+.mod-seo-homepage-content .content-body .columns-area .column:last-child {
+    padding-right: 0;
+}
+.mod-seo-homepage-content .content-body .columns-area .column .column-title {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.14;
+    margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+}
+.mod-seo-homepage-content .content-body .columns-area .column .column-text {
+    line-height: 1.3;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif;
+}
+.mod-seo-homepage-content .content-body .footer {
+    border-top: 1px solid #e5e7e8;
+}
+.mod-seo-homepage-content .content-body .footer .description-footer {
+    margin: 16px 16px 16px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.14;
+    font-family: "Noto Sans", sans-serif;
+    padding-bottom: 16px;
+}
+.mod-seo-homepage-content .content-label {
+    background: #575757;
+}
+.mod-seo-homepage-content .content-wrapper-poker .content-body button {
+    font-family: "Noto Sans", sans-serif;
+    border-radius: 0;
+    background: -moz-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffc90c), color-stop(100%, #ffb80c));
+    background: -webkit-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: -o-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: -ms-linear-gradient(top, #ffc90c 0%, #ffb80c 100%);
+    background: linear-gradient(to bottom, #ffc90c 0%, #ffb80c 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc90c', endColorstr='#ffb80c');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc90c', endColorstr='#ffb80c');
+    text-shadow: 0.1px 0 #fff;
+    line-height: 1;
+}
+
+.mod-ribbon {
+    position: static !important;
+}
+.mod-poker-sidegame-list {
+    background: #fff;
+}
+.mod-poker-sidegame-list .gamelist {
+    position: absolute;
+    left: 1px;
+    top: 28px;
+    width: 817px;
+    background: #3b5160;
+    z-index: 100;
+    line-height: 11px;
+    box-shadow: none;
+}
+.mod-poker-sidegame-list h3,
+.mod-poker-sidegame-list h4 {
+    font-family: "Noto Sans", sans-serif;
+    height: 30px;
+    margin: 0 0 0 0;
+    background-color: #304757;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c3e49), color-stop(100%, #1d2c37));
+    background: -o-linear-gradient(top, #2c3e49 0%, #1d2c37 100%);
+    background: -moz-linear-gradient(top, #2c3e49 0%, #1d2c37 100%);
+    background: -ms-linear-gradient(top, #2c3e49 0%, #1d2c37 100%);
+    background: linear-gradient(to bottom, #2c3e49 0%, #1d2c37 100%);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 0 0 5px;
+    padding-left: 16px;
+    text-transform: capitalize;
+}
+.mod-poker-sidegame-list a {
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: normal;
+}
+.mod-poker-sidegame-list .name {
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    white-space: normal;
+    color: #ffffff;
+    top: 11px;
+    left: 10px;
+}
+.mod-poker-sidegame-list .stats {
+    position: relative;
+    text-align: left;
+    white-space: normal;
+    color: #ffffff;
+    top: 23px;
+    left: 10px;
+    float: left;
+    line-height: 16px;
+    clear: left;
+    width: 180px;
+}
+body.lang-ru .mod-poker-sidegame-list .stats {
+    top: 15px;
+    font-size: 11px;
+    line-height: 14px;
+}
+.mod-poker-sidegame-list .large .stats {
+    width: 390px;
+}
+.mod-poker-sidegame-list .details .name {
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    white-space: normal;
+    color: #2789ce;
+    margin-top: -5px;
+    width: 140px;
+}
+.mod-poker-sidegame-list .category,
+.mod-poker-sidegame-list .category-right {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    color: #6e7b84;
+}
+.mod-poker-sidegame-list .category {
+    display: block;
+}
+.mod-poker-sidegame-list .details {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.mod-poker-sidegame-list .vertical-list li:hover,
+.mod-poker-sidegame-list .vertical-list li.hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe659), color-stop(100%, #ffb80c));
+    background: -o-linear-gradient(top, #ffe659 0%, #ffb80c 100%);
+    background: -moz-linear-gradient(top, #ffe659 0%, #ffb80c 100%);
+    background: -ms-linear-gradient(top, #ffe659 0%, #ffb80c 100%);
+    background: linear-gradient(to bottom, #ffe659 0%, #ffb80c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe659', endColorstr='#ffb80c');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffe659, endColorstr=#ffb80c)";
+}
+.mod-poker-sidegame-list .action {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000, endColorstr=#A6000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000, endColorstr=#A6000000)";
+    z-index: 130;
+    position: absolute;
+    width: 203px !important;
+    height: 118px !important;
+    cursor: pointer;
+}
+.mod-poker-sidegame-list .large .action {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000, endColorstr=#A6000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000, endColorstr=#A6000000)";
+    z-index: 130;
+    position: absolute;
+    width: 407px !important;
+    height: 234px !important;
+    cursor: pointer;
+}
+.mod-poker-sidegame-list div:hover > .action,
+.mod-poker-sidegame-list li:hover > .action,
+.mod-poker-sidegame-list li.hover > .action {
+    display: block;
+}
+.mod-poker-sidegame-list .action > .main-button {
+    color: #234947;
+    text-decoration: none;
+    position: absolute;
+    float: left;
+    right: 13px;
+    top: 75px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 3px 0 0 3px;
+    clear: left;
+    cursor: pointer;
+    background: transparent url("/page/images/buttons/orange_stroke_promotions.jpg") 0 0 repeat-x;
+    height: 28px;
+}
+.mod-poker-sidegame-list .large .action > .main-button {
+    position: absolute;
+    float: left;
+    top: 190px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 3px 0 0 3px;
+    height: 28px;
+}
+.main-button > span {
+    height: 26px;
+    padding: 6px 8px 6px 11px;
+    width: 67px;
+    margin: 1px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 27px;
+    font-family: "Noto Sans", sans-serif;
+    color: #273a47;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    background: transparent url("/page/images/buttons/orange_bg_promotions.jpg") 0 0 repeat-x;
+}
+.main-button > span > span {
+    padding-right: 12px;
+    margin-left: 2px;
+    background: transparent url("/page/images/buttons/arrows.png") right 3px no-repeat;
+}
+.main-button.hover > span,
+.main-button:hover > span {
+    background: transparent url("/page/images/buttons/orange_bg_hover_promotions.jpg") 0 0 repeat-x;
+}
+.main-button.active,
+.main-button:active {
+    background: transparent url("/page/images/buttons/orange_stroke_active_promotions.jpg") 0 0 repeat-x;
+}
+.main-button.active > span,
+.main-button:active > span {
+    background: transparent url("/page/images/buttons/orange_bg_active_promotions.jpg") 0 0 repeat-x;
+}
+.mod-poker-sidegame-list .gamelist {
+    padding-top: 0;
+    z-index: 100;
+}
+.mod-poker-sidegame-list .gamelist .row > div {
+    display: block;
+    float: left;
+    width: 204px;
+    height: 117px;
+    text-align: left;
+    border: none;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.mod-poker-sidegame-list .gamelist .row {
+    clear: both;
+    margin: 0;
+    border: 0;
+    display: block;
+}
+.mod-poker-sidegame-list .gamelist .row > div.large {
+    width: 408px;
+    height: 235px;
+}
+.mod-poker-sidegame-list .gamelist .row > div.large.bottom {
+    top: -117px;
+    position: relative;
+}
+.mod-poker-sidegame-list .gamelist .row > div.bottom {
+    top: 0;
+    position: relative;
+}
+.mod-poker-sidegame-list .gamelist .row > div > a {
+    width: 204px;
+    height: 117px;
+    margin: 0;
+    padding: 0;
+}
+.mod-poker-sidegame-list .gamelist .row > div > a > img {
+    width: 203px;
+    height: 118px;
+    margin: 0;
+    border-right: 1px solid #778187;
+    border-bottom: 1px solid #778187;
+}
+.mod-poker-sidegame-list .gamelist .row > div.large > a > img {
+    width: 407px;
+    height: 234px;
+    margin: 0;
+    border-right: 1px solid #778187;
+    border-bottom: 1px solid #778187;
+}
+.mod-ribbon .top > li > div > .mod {
+    font-size: 14px;
+}
+
+.mod-poker-social-media .social-media-item {
+    padding-bottom: 10px;
+}
+.mod-poker .widget .mod-poker-social-media .social-media-items .social-media-title,
+body.lang-es .mod-poker .widget .mod-poker-social-media .social-media-items .social-media-title {
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+.mod-poker .widget .mod-poker-social-media .social-media-title {
+    padding-bottom: 0;
+}
+body.lang-es .mod-poker .widget .mod-poker-social-media .social-media-title,
+body.lang-el .mod-poker .widget .mod-poker-social-media .social-media-title,
+body.lang-pt .mod-poker .widget .mod-poker-social-media .social-media-title {
+    font-size: 12px;
+    line-height: 18px;
+}
+body.lang-pt .mod-poker .widget .mod-poker-social-media .social-media-title,
+body.lang-es .mod-poker .widget .mod-poker-social-media .social-media-title,
+body.lang-pt .mod-poker .widget .mod-poker-social-media .social-media-text,
+body.lang-es .mod-poker .widget .mod-poker-social-media .social-media-text {
+    line-height: 14px;
+}
+.mod-poker-social-media .right-element {
+    float: right;
+    padding: 5px 0 0;
+    margin: 0 16px 0 0;
+    width: 95px;
+    text-align: right;
+}
+body.lang-es .mod-poker-social-media .right-element,
+body.lang-ru .mod-poker-social-media .right-element {
+    margin-right: 14px;
+}
+body.lang-pt .mod-poker-social-media .right-element {
+    padding-left: 0;
+    padding-right: 3px;
+}
+.mod-poker-social-media .social-media-text {
+    width: 178px;
+}
+.mod-poker-social-media .facebook-link {
+    width: 94px;
+    height: 25px;
+    background: url(/modules/poker-social-media/images/facebook-logo.png) no-repeat left top;
+    display: block;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.mod-poker-social-media .facebook-link:hover {
+    background-position: 0 -25px;
+}
+.mod-poker-social-media .button {
+    float: right;
+    margin-top: 0;
+    margin-right: 0;
+}
+.mod-poker .widget .mod-poker-social-media .social-media-title {
+    font-size: 14px;
+}
+.mod-poker-social-media .social-media-items .right-element {
+    padding-left: 6px;
+}
+
+.mod-poker-support {
+    padding-right: 16px;
+    font-size: inherit;
+}
+.mod-poker-support .dark {
+    text-align: center;
+    border-top: 1px solid #c6d5e0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+.mod-poker-support a {
+    font-weight: bold;
+}
+.mod-poker-support a.textlink {
+    text-decoration: underline;
+}
+
+.mod-poker-ticker .container {
+    font: normal 14px "Noto Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 33px;
+    position: relative;
+    z-index: 0;
+}
+.mod-poker-ticker .shadow {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    height: 16px;
+    width: 956px;
+    background: url("/modules/poker-ticker/images/ticker-shadow-background.png") 0 0 repeat;
+}
+.mod-poker-ticker .ticker {
+    width: 924px;
+    height: 25px;
+    margin: 0 0 0 16px;
+    padding: 5px 16px 3px;
+    color: #2b3f4c;
+    background: -moz-linear-gradient(top, #c9e5f9 0%, #b5d3e8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c9e5f9), color-stop(100%, #b5d3e8));
+    background: -webkit-linear-gradient(top, #c9e5f9 0%, #b5d3e8 100%);
+    background: -o-linear-gradient(top, #c9e5f9 0%, #b5d3e8 100%);
+    background: -ms-linear-gradient(top, #c9e5f9 0%, #b5d3e8 100%);
+    background: linear-gradient(to bottom, #c9e5f9 0%, #b5d3e8 100%);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9e5f9', endColorstr='#b5d3e8');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9e5f9', endColorstr='#b5d3e8');
+    position: relative;
+    top: -36px;
+}
+.mod-poker-ticker .left-alignment {
+    float: left;
+}
+.mod-poker-ticker .right-alignment {
+    float: right;
+}
+.mod-poker-ticker .number {
+    font-size: 18px;
+}
+.mod-poker-ticker .title,
+.mod-poker-ticker .number {
+    z-index: 1;
+    position: relative;
+}
+.mod-poker-ticker .leftcorner,
+.mod-poker-ticker .rightcorner {
+    position: absolute;
+    background: url("/modules/poker-ticker/images/ticker-corner-shadows.png") 0 0 no-repeat;
+    width: 16px;
+    height: 16px;
+}
+.mod-poker-ticker .leftcorner {
+    left: 0;
+}
+.mod-poker-ticker .rightcorner {
+    background-position: -16px;
+    right: 0;
+}
+
+.mod-poker-tournaments h1 {
+    margin: 0 0 12px;
+    font-weight: bold;
+}
+.mod-poker-tournaments .page-content {
+    margin: 0 0 0 15px;
+    clear: both;
+}
+.mod-poker-tournaments .tournaments-description {
+    padding: 16px 0 16px;
+}
+.mod-poker-tournaments table {
+    width: 100%;
+    background: #fff;
+    color: inherit;
+}
+.mod-poker-tournaments table.tournament-details {
+    background: #eff2f2;
+}
+.mod-poker-tournaments table.tournaments thead tr {
+    border: none;
+}
+.mod-poker-tournaments table thead tr {
+    border-left: 1px solid #273a47;
+    border-right: 1px solid #273a47;
+}
+.mod-poker-tournaments table th {
+    background: #273a47;
+    color: #fff;
+    padding: 6px 8px;
+    font-weight: bold;
+    vertical-align: top;
+}
+.mod-poker-tournaments table th select {
+    margin: 4px 0;
+    padding: 2px;
+}
+.mod-poker-tournaments table tr {
+    border-bottom: 1px solid #c6d5e0;
+    border-right: 1px solid #c6d5e0;
+    border-left: 1px solid #c6d5e0;
+}
+.mod-poker-tournaments table tr.even {
+    background: #eff2f2;
+    border-bottom: none;
+}
+.mod-poker-tournaments table tr.even td {
+    padding: 0;
+}
+.mod-poker-tournaments table tr.even div.expandable {
+    display: none;
+    padding: 6px 8px;
+    border-bottom: 1px solid #c6d5e0;
+}
+.mod-poker-tournaments table tr td div {
+    display: table;
+}
+.mod-poker-tournaments table tr td div.tournament-description {
+    width: 270px;
+    display: table-cell;
+    padding: 0 28px;
+}
+.mod-poker-tournaments table tr td div.tournament-description span {
+    color: #7e97a7;
+    font-size: 9px;
+    display: block;
+    opacity: 1;
+    padding: 8px 0 5px;
+}
+.mod-poker-tournaments table tr td div.tournament-maxnr,
+.mod-poker-tournaments table tr td div.tournament-registered {
+    width: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.mod-poker-tournaments table tr td div.tournament-maxnr div,
+.mod-poker-tournaments table tr td div.tournament-registered div {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    float: right;
+    text-align: right;
+}
+.mod-poker-tournaments table tr td div.tournament-maxnr div.max-nr,
+.mod-poker-tournaments table tr td div.tournament-registered div.max-nr {
+    font-size: 24px;
+    margin: 4px 0 0 15px;
+}
+.mod-poker-tournaments table tr.odd:hover {
+    cursor: pointer;
+    background: #eff2f2;
+}
+.mod-poker-tournaments table tr.odd:hover td.arrow span {
+    background-position: 0 -10px;
+}
+.mod-poker-tournaments table tr.odd.active td.arrow span {
+    background-position: 0 -20px;
+}
+.mod-poker-tournaments table td {
+    padding: 6px 8px;
+    vertical-align: middle;
+}
+.mod-poker-tournaments table td.arrow {
+    padding: 6px 0 6px 8px;
+    width: 10px;
+}
+.mod-poker-tournaments table td.arrow span {
+    width: 20px;
+    height: 10px;
+    display: block;
+    background: url("/modules/poker-tournaments/images/tournaments-sprite.png") no-repeat left top;
+}
+
+.mod-poker-upcoming-tournaments {
+    background: #273a48;
+    padding: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 11px;
+    height: 135px;
+}
+.mod-poker-upcoming-tournaments h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 0;
+}
+.mod-poker-upcoming-tournaments span {
+    float: right;
+    color: #fff;
+}
+.mod-poker-upcoming-tournaments ul {
+    margin: 0 0 7px;
+}
+.mod-poker-upcoming-tournaments ul a {
+    font-weight: 700;
+}
+.mod-poker-upcoming-tournaments .view-all {
+    padding: 0 0 4px;
+    height: 11px;
+}
+.mod-poker-upcoming-tournaments .view-all a {
+    float: right;
+}
+.mod-poker-upcoming-tournaments li {
+    border-bottom: 1px solid #c6d5e0;
+    padding: 7px 0;
+}
+.mod-poker-upcoming-tournaments .tournaments-list-item a.textlink {
+    color: #4eb6ff;
+}

@@ -1,0 +1,167 @@
+.recently-played-games {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    overflow: initial;
+}
+.recently-played-games::-webkit-scrollbar {
+    display: none;
+}
+.recently-played-games .container {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    display: flex;
+    width: min-content;
+    margin: 20px auto 0;
+    overflow: visible;
+}
+.recently-played-games .container::-webkit-scrollbar {
+    display: none;
+}
+.recently-played-games .recently-played-wrapper {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    overflow: auto;
+    display: flex;
+    flex: 1;
+}
+.recently-played-games .recently-played-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.recently-played-games .recently-played-wrapper .arrows-wrapper {
+    display: none;
+}
+.recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container {
+    margin-right: 0;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    width: 3vw;
+    box-sizing: content-box;
+    justify-content: center;
+}
+.recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container svg {
+    box-sizing: content-box;
+    width: 1vw;
+    height: 1vw;
+    transition: width 0.3s, height 0.3s ease;
+}
+.recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container.right {
+    right: 0;
+    background: linear-gradient(270deg, #1e1e1e, rgba(30, 30, 30, 0.5));
+}
+.recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container.left {
+    margin-left: 0;
+    left: 0;
+    background: linear-gradient(270deg, rgba(30, 30, 30, 0.3), #1e1e1e);
+}
+.recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container:hover {
+    width: 4vw;
+}
+.recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container:hover svg {
+    width: 2vw;
+    height: 2vw;
+}
+.recently-played-games:hover .recently-played-wrapper .arrows-wrapper {
+    display: flex;
+}
+.tile-container-rpg {
+    min-width: 96px;
+    max-width: 96px;
+    margin: 0 10px;
+}
+.tile-container-rpg:first-child {
+    margin-left: 24px;
+}
+.tile-container-rpg:last-child {
+    margin-right: 24px;
+}
+@media (min-width: 767px) {
+    .tile-container-rpg {
+        min-width: 160px;
+        max-width: 160px;
+        margin: 0 22px;
+    }
+    .tile-container-rpg:first-child {
+        margin-left: 32px;
+    }
+    .tile-container-rpg:last-child {
+        margin-right: 32px;
+    }
+}
+@media (min-width: 1023px) {
+    .recently-played-games {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .recently-played-games .container {
+        overflow-x: scroll;
+    }
+    .recently-played-games .container .empty-space {
+        display: inline;
+        min-width: 12px;
+    }
+    .recently-played-games .container .empty-space + .tile-container-rpg {
+        margin-left: 0;
+    }
+    .recently-played-games .container .tile-container-rpg:nth-last-child(2) {
+        margin-right: 0;
+    }
+    .recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container {
+        height: 205px;
+    }
+}
+@media (min-width: 1120px) {
+    .recently-played-games .container .empty-space {
+        min-width: calc((100vw - 1100px) / 2);
+    }
+    .recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container {
+        height: 235px;
+    }
+}
+@media (min-width: 1399px) {
+    .recently-played-games .container .empty-space {
+        min-width: calc((100vw - 1376px) / 2);
+    }
+    .recently-played-games .recently-played-wrapper .arrows-wrapper .arrow-container {
+        height: 295px;
+    }
+}
+@media (min-width: 1920px) {
+    .recently-played-games .container .empty-space {
+        min-width: calc((100vw - 1784px) / 2);
+    }
+}
+.recently-played-games .container {
+    margin: 16px auto 12px;
+}
+.tile-container-rpg {
+    min-width: 120px;
+    max-width: 120px;
+    margin: 0 6px;
+}
+@media (min-width: 767px) {
+    .tile-container-rpg {
+        min-width: 160px;
+        max-width: 160px;
+        margin: 0 22px;
+    }
+    .tile-container-rpg:first-child {
+        margin-left: 10px;
+    }
+    .tile-container-rpg:last-child {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 1120px) {
+    .tile-container-rpg {
+        min-width: 15vw;
+        max-width: 15vw;
+        margin: 0 48px;
+    }
+}
+@media (min-width: 1920px) {
+    .tile-container-rpg {
+        min-width: 13vw;
+        max-width: 13vw;
+    }
+}

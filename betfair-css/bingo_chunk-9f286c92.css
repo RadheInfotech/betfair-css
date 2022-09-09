@@ -1,0 +1,331 @@
+.room-tickets-launcher {
+    width: auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.rooms-tickets {
+    margin-right: 0;
+    margin-bottom: 0;
+    background: #fff;
+    border-radius: 14px;
+    border: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 4px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.rooms-tickets .tickets-number {
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.rooms-tickets .spinner {
+    width: 16px;
+    padding-top: 16px;
+    margin: 0 8px;
+    display: inline-block;
+}
+.rooms-tickets svg {
+    margin-right: 8px;
+    width: 24px;
+    height: 21px;
+}
+.rooms-tickets svg path {
+    fill: #2797e6;
+}
+.rooms-tickets .tickets-icon {
+    background-size: 21px;
+    width: 24px;
+    height: 21px;
+    margin-right: 8px;
+    display: inline-block;
+}
+.rooms-tickets .tickets-text {
+    display: flex;
+    color: #2797e6;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    align-items: center;
+    white-space: nowrap;
+}
+.rooms-carousel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.rooms-carousel .rooms-carousel-header {
+    position: relative;
+    display: block;
+    z-index: 3;
+    padding: 0;
+}
+.rooms-carousel .rooms-carousel-view-all {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 28px;
+    z-index: 2;
+    height: auto;
+}
+.rooms-carousel .zone-view-all {
+    bottom: 0;
+}
+.rooms-carousel .rooms-carousel-header-title {
+    border-top: 1px solid #fff;
+    background-color: rgba(255, 120, 0, 0.15);
+    max-width: 100%;
+    padding: 5px 0 0;
+    z-index: 1;
+}
+.rooms-carousel .carousel-title-image {
+    width: 186px;
+    height: 23px;
+    display: block;
+    margin-bottom: -8px;
+    background: url("assets/images/games-carousel-title.svg?v=602") no-repeat 50%;
+    pointer-events: none;
+    margin-left: 8px;
+    margin-top: 3px;
+}
+.rooms-carousel .rooms-carousel-body {
+    align-self: center;
+    position: relative;
+    padding: 16px 0 8px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-color: rgba(255, 120, 0, 0.15);
+    overflow: hidden;
+    width: 100%;
+    height: 208px;
+}
+.rooms-carousel .rooms-carousel-tiles-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    overflow: hidden;
+}
+.rooms-carousel .rooms-carousel-tiles-container .room-tile {
+    text-decoration: none;
+}
+.rooms-carousel .rooms-carousel-tiles-container .room-tile:first-child {
+    margin-left: 13px;
+}
+.rooms-carousel .rooms-carousel-tiles-container .room-tile:last-child {
+    margin-right: 20px;
+}
+.rooms-carousel .room-tickets-launcher {
+    margin: 0 auto;
+    z-index: 2;
+}
+.rooms-carousel .button-container {
+    width: 64px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    display: none;
+}
+.rooms-carousel .button-container.right {
+    right: 0;
+    background: linear-gradient(90deg, transparent, #ffecda);
+}
+.rooms-carousel .button-container.left {
+    left: 0;
+    background: linear-gradient(270deg, transparent, #ffecda);
+}
+.rooms-carousel .carousel-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid #000;
+    background-color: #ff7800;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.rooms-carousel .carousel-button:focus {
+    outline: none;
+}
+.rooms-carousel .carousel-button:before {
+    content: "";
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    border-style: solid;
+    border-color: #fff;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%) rotate(135deg);
+}
+.rooms-carousel .next:before {
+    transform: translate(-67%, -50%) rotate(-45deg);
+}
+.mobile .rooms-carousel .rooms-carousel-body {
+    overflow: hidden;
+}
+.mobile .rooms-carousel .rooms-carousel-tiles-container {
+    overflow: auto;
+}
+.mobile .rooms-carousel .room-tickets-launcher {
+    padding-top: 0;
+    width: 100%;
+}
+.desktop .rooms-carousel .rooms-carousel-body,
+.desktop .rooms-carousel .rooms-carousel-tiles-container {
+    overflow: hidden;
+}
+@media screen and (min-device-width: 767px) {
+    .rooms-carousel .rooms-carousel-header {
+        z-index: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+    .rooms-carousel .rooms-carousel-header-title {
+        margin: auto;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        display: flex;
+    }
+    .rooms-carousel .carousel-title-image {
+        width: 256px;
+        height: 32px;
+        margin-bottom: 0;
+        margin-right: 8px;
+    }
+    .rooms-carousel .rooms-tickets {
+        display: flex;
+    }
+    .rooms-carousel .rooms-carousel-body,
+    .rooms-carousel .rooms-carousel-tiles-container {
+        height: 210px;
+    }
+    .rooms-carousel .rooms-carousel-view-all {
+        top: 68px;
+        z-index: 1;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .rooms-carousel .button-container {
+        display: block;
+    }
+    .rooms-carousel .carousel-title-image {
+        height: 32px;
+        width: 248px;
+    }
+    .rooms-carousel .rooms-carousel-view-all {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rooms-carousel .rooms-carousel-body,
+    .rooms-carousel .rooms-carousel-tiles-container {
+        height: 210px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .rooms-carousel .rooms-carousel-body,
+    .rooms-carousel .rooms-carousel-tiles-container {
+        height: auto;
+    }
+}
+.rooms-carousel .rooms-carousel-header {
+    background-color: rgba(255, 120, 0, 0.15);
+    margin-top: 0;
+}
+.rooms-carousel .rooms-carousel-body {
+    box-shadow: none;
+    border: 0;
+}
+.rooms-carousel .carousel-button {
+    border: 0;
+    box-shadow: -8px 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+.rooms-carousel .rooms-carousel-header-title {
+    background-color: initial;
+    padding: 0;
+}
+.rooms-carousel .carousel-title-image {
+    transform: scale(0.6);
+    transform-origin: top left;
+    width: 367px;
+    height: 95px;
+    margin-bottom: 0;
+}
+.mobile .rooms-carousel .carousel-title-image {
+    bottom: -50px;
+    position: absolute;
+}
+.mobile .rooms-carousel .room-tickets-launcher {
+    background-color: rgba(255, 120, 0, 0.15);
+    padding-bottom: 8px;
+}
+.mobile .rooms-carousel .rooms-carousel-header {
+    margin-top: 50px;
+}
+@media screen and (min-device-width: 767px) {
+    .mobile .rooms-carousel .carousel-title-image {
+        bottom: -20px;
+        position: relative;
+    }
+    .mobile .rooms-carousel .rooms-carousel-header {
+        margin-top: 0;
+    }
+    .rooms-carousel .rooms-carousel-header-title {
+        width: 100%;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .rooms-carousel .rooms-carousel-view-all {
+        z-index: 2;
+        right: 8px;
+    }
+    .rooms-carousel .carousel-title-image {
+        transform: scale(1);
+        width: 400px;
+        height: 95px;
+        display: block;
+        position: relative;
+        bottom: -20px;
+        margin: auto;
+    }
+    .rooms-carousel .room-tickets-launcher {
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width: 1120px) {
+    .desktop .rooms-carousel .rooms-carousel-header {
+        width: 100%;
+    }
+    .desktop .rooms-carousel .rooms-carousel-view-all {
+        width: 1120px;
+        margin: auto;
+        left: 0;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .desktop .rooms-carousel .rooms-carousel-view-all {
+        width: 1376px;
+    }
+}
+@media screen and (min-width: 1919px) {
+    .desktop .rooms-carousel .rooms-carousel-view-all {
+        width: 1784px;
+    }
+}

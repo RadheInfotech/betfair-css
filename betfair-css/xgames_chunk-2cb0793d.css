@@ -1,0 +1,61 @@
+.xgame-statistics-container {
+    background: #18181a url("assets/images/xgames_background.svg?v=603");
+    background-size: 25px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.xgame-statistics-container .header {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+.xgame-statistics-container .header .title {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.xgame-statistics-container .header .sub-title {
+    color: #ffb80c;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.xgame-statistics-container .content {
+    margin: 10px auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.xgame-statistics-container .content .statistics-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+    background-color: #d8d8d8;
+    border: 1px solid #989898;
+    border-radius: 2px;
+}
+.xgame-statistics-container .content .statistics-card:hover {
+    transform: scale(1.05);
+}
+.xgame-statistics-container .content .statistics-card .statistics-card-title {
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 700;
+    color: #343436;
+}
+.xgame-statistics-container .content .statistics-card .statistics-card-background-image {
+    margin: 10px;
+    width: auto;
+    height: 50%;
+    border-radius: 2px;
+}
+.xgame-statistics-container .content .statistics-card .statistics-card-button {
+    text-align: center;
+    margin: 0 10px 10px;
+    border-radius: 2px;
+}

@@ -1,0 +1,150 @@
+.mod-carousel {
+    position: relative;
+}
+.mod-carousel .tab {
+    float: left;
+}
+.mod-carousel .pager {
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+}
+.mod-carousel .pagenum {
+    text-decoration: none;
+    font-weight: bold;
+    background: url("/modules/carousel/images/carousel-sprite-betfair.png") 0 0 no-repeat;
+    width: 10px;
+    margin-right: 6px;
+    height: 10px;
+    display: inline-block;
+    outline: none;
+}
+.mod-carousel .overview {
+    list-style: none;
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.mod-carousel .viewport {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.mod-carousel .overview .page {
+    float: left;
+    padding: 0;
+    height: 118px;
+    width: 290px;
+}
+.mod-carousel .buttons {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    top: 66px;
+    outline: none;
+}
+.mod-carousel .disable {
+    visibility: hidden;
+}
+.mod-carousel .caption {
+    padding: 16px 15px 0;
+    font-size: 11px;
+    text-align: center;
+}
+.mod-carousel {
+    position: relative;
+}
+.mod-carousel .tab {
+    float: left;
+}
+.mod-carousel .pager {
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+}
+.mod-carousel .pagenum {
+    text-decoration: none;
+    font-weight: bold;
+    background: url("/modules/carousel/images/carousel-sprite-betfair.png") 0 0 no-repeat;
+    width: 10px;
+    margin-right: 6px;
+    height: 10px;
+    display: inline-block;
+    outline: none;
+}
+.mod-carousel .overview {
+    list-style: none;
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.mod-carousel .viewport {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.mod-carousel .overview .page {
+    float: left;
+    padding: 0;
+    height: 118px;
+    width: 290px;
+}
+.mod-carousel .buttons {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    top: 66px;
+    outline: none;
+}
+.mod-carousel .disable {
+    visibility: hidden;
+}
+.mod-carousel .caption {
+    padding: 16px 15px 0;
+    font-size: 11px;
+    text-align: center;
+}
+.buttons {
+    background: url("/modules/carousel/images/carousel-sprite-betfair.png") 0 0 no-repeat;
+}
+.buttons.prev {
+    left: -8px;
+    background-position: 0 -12px;
+}
+.buttons.next {
+    right: -8px;
+    background-position: -38px -12px;
+}
+.mod-carousel .pager {
+    left: 10px;
+}
+.mod-carousel .buttons {
+    opacity: 0;
+}
+.mod-carousel .buttons.prev {
+    left: 16px;
+}
+.mod-carousel .buttons.next {
+    right: 16px;
+}
+.mod-carousel .pagenum.active,
+.mod-carousel .pagenum:active {
+    background-position: -22px 0;
+}
+.mod-carousel .pagenum:hover {
+    background-position: -11px 0;
+}

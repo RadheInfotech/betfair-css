@@ -1,0 +1,87 @@
+.subnavigation-container {
+    white-space: nowrap;
+    display: inline;
+}
+.subnavigation-container .subnavigation-wrapper {
+    display: flex;
+    overflow: scroll;
+    background: #1e1e1e;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    align-items: center;
+}
+.subnavigation-container .subnavigation-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.subnavigation-container .subnavigation-wrapper.sticky {
+    position: sticky;
+    z-index: 1;
+    width: 100%;
+}
+.subnavigation-container .subnavigation-wrapper .subnavigation {
+    width: fit-content;
+    background: #2a2a2c;
+    height: 56px;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 12px;
+}
+.subnavigation-container .subnavigation-wrapper .subnavigation-item {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: Noto Sans, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.subnavigation-container .subnavigation-wrapper .subnavigation-item.active {
+    background: none;
+    border: 1px solid #ffb80c;
+    color: #ffb80c;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 6px 12px;
+}
+@media (min-width: 767px) {
+    .subnavigation-container {
+        margin-top: 16px;
+    }
+    .subnavigation-container .subnavigation-wrapper {
+        margin: 0 auto;
+    }
+    .subnavigation-container .subnavigation-wrapper .subnavigation {
+        width: unset;
+    }
+    .subnavigation-container .subnavigation-wrapper .subnavigation-item.active {
+        padding: 6px 28px;
+    }
+}
+@media (min-width: 1023px) {
+    .subnavigation-container .subnavigation-wrapper {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .subnavigation-container .subnavigation-wrapper .subnavigation {
+        width: fit-content;
+    }
+    .subnavigation-container .subnavigation-wrapper .subnavigation-item {
+        margin: 0 32px;
+    }
+    .subnavigation-container .subnavigation-wrapper .subnavigation-item.active:first-child {
+        margin-left: 12px;
+    }
+    .subnavigation-container .subnavigation-wrapper .subnavigation-item.active:last-child {
+        margin-right: 12px;
+    }
+}
+@media (min-width: 1920px) {
+    .subnavigation-container .subnavigation-wrapper {
+        width: unset;
+    }
+}
